@@ -6,7 +6,6 @@ Reproduce the CVPR2020 paper:  Uninformed Students: Student-Teacher Anomaly Dete
     tensorflow >= 2.3
 
 ### ToDo:
-    - Prepare MVTec dataset
     - Prepare Resnet-18 pretrained
     - Construct the teacher/student network
     - Understand and program the distillation loss L_k
@@ -15,4 +14,4 @@ Reproduce the CVPR2020 paper:  Uninformed Students: Student-Teacher Anomaly Dete
     - Program a crop/sample preprocess pipe, incorporate above losses
 
 ### Finished:
-    None
+    - Prepare MVTec dataset
