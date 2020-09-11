@@ -60,6 +60,12 @@ def build_mvtecad():
         num_of_tfrecords=20
     )
 
+    builder.build_tfrecords(
+        generator=test_data_gener(),
+        output_dir=DST_DIR, split="test",
+        num_of_tfrecords=10
+    )
+
 
 def load_mvtectad():
     parser = MVTectFMT()
@@ -73,6 +79,6 @@ def load_mvtectad():
 
 
 if __name__ == "__main__":
-    # logging.basicConfig(level=logging.DEBUG)
-    # build_mvtecad()
-    load_mvtectad()
+    logging.basicConfig(level=logging.DEBUG)
+    build_mvtecad()
+    # load_mvtectad()
