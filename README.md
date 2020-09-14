@@ -1,5 +1,7 @@
 # ReproduceMVTec
-Reproduce the CVPR2020 paper:  Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings
+Reproduce the CVPR2020 paper: [Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings](https://openaccess.thecvf.com/content_CVPR_2020/papers/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.pdf)
+
+&& this: [Modeling the Distribution of Normal Data in Pre-Trained Deep Features for Anomaly Detection](https://arxiv.org/abs/2005.14140)
 
 
 ### Dependency:
