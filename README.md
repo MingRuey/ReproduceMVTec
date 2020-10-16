@@ -8,6 +8,7 @@ Reproduce the CVPR2020 paper: [Uninformed Students: Student-Teacher Anomaly Dete
     tensorflow >= 2.3
 
 ### ToDo:
+    - Fast dense local feature extraction, aka [ref 4 in paper](https://www.dfki.de/fileadmin/user_upload/import/9245_FastCNNFeature_BMVC.pdf)
     - Understand and program the distillation loss L_k
     - Understand and program the triplet loss L_m
     - Understand and program the compactness loss L_c
